@@ -1,0 +1,7 @@
+{
+  "name": "WebCraft DAW",
+  "description": "A web-based digital audio workstation inspired by Mixcraft. Mix tracks, adjust levels, and generate AI vocal samples.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
