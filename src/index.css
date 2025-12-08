@@ -32,3 +32,36 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #525252; 
 }
+
+/* Estilos adicionais para manter a aparência original */
+button {
+  background-color: #262626;
+  color: #e5e5e5;
+  border: 1px solid #3f3f3f;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #3f3f3f;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+input, select {
+  background-color: #262626;
+  color: #e5e5e5;
+  border: 1px solid #3f3f3f;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #525252;
+}
