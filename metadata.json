@@ -1,0 +1,7 @@
+{
+  "name": "WebCraft DAW",
+  "description": "A browser-based Digital Audio Workstation inspired by Mixcraft 9, featuring multi-track mixing, real-time effects, project persistence, and undo/redo capabilities.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
